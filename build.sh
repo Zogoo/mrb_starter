@@ -10,4 +10,4 @@ else
   cd $MRUBY_ROOT && rake MRUBY_CONFIG="${PROJECT_PATH}/build_config.rb"
 fi
 
-$MRUBY_BIN/mruby $PROJECT_PATH/src/hello.rb
+$MRUBY_ROOT/build/host/bin/mruby $PROJECT_PATH/src/hello.rb
